@@ -11,7 +11,7 @@
     [
         'driver'      => 'pdo',
         'host'        => 'localhost',
-        'database'    => 'elotec',
+        'database'    => 'basicCMS',
         'user'        => 'root',
         'password'    => '12345678',
         'dsn'         => '',
