@@ -12,7 +12,7 @@
         <li class="btn_menu">
           <a class="app-menu__item active" href="/administrator">
             <i class="app-menu__icon icon-dashboard"></i>
-            <span class="app-menu__label">Yönetim Anasayfa</span>
+            <span class="app-menu__label">Dashboard</span>
           </a>
         </li>
         
@@ -51,23 +51,12 @@
           </a>
         </li>
         <li class="btn_menu">
-          <a class="app-menu__item" href="/administrator/setting">
+          <a class="app-menu__item" href="/administrator/settings">
             <i class="app-menu__icon icon-angle-right"></i>
             <span class="app-menu__label">Site Management</span>
           </a>
         </li>
    
-            <li class="btn_menu">
-          <a class="app-menu__item" href="/administrator/musteri">
-            <i class="app-menu__icon icon-angle-right"></i>
-            <span class="app-menu__label">Müşteri Yönetimi</span>
-          </a>
-        </li>
-        <li class="btn_menu">
-          <a class="app-menu__item" href="/" target="_blank">
-            <i class="app-menu__icon icon-angle-right"></i>
-            <span class="app-menu__label"> Site anasayfa</span>
-          </a>
-        </li>
+           
       </ul>
     </aside>

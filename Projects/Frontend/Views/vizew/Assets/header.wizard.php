@@ -51,7 +51,7 @@
                     <nav class="classy-navbar justify-content-between" id="vizewNav">
 
                         <!-- Nav brand -->
-                        <a href="/" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="/" class="nav-brand logo">{{settings('siteName')}}</a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -68,20 +68,9 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="/">Anasayfa</a></li>
-                                    <li><a href="#">Hesaplamalar</a>
-                                        <ul class="dropdown">
-
-                                            @foreach(category('7') as $key)
-                        
-                                            <li><a href="/category/{{ $key->id.'/'.$key->nameSeo  }}">{{ $key->name }}</a></li>
-
-                                             @endforeach
-                                            
-                                        </ul>
-                                    </li>
-                                  
-                                    <li><a href="/contact">İletişim</a></li>
+                                    <li class="active"><a href="/">MAINPAGE</a></li>
+                                    <li><a href="/about">ABOUT</a></li>
+                                    <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->

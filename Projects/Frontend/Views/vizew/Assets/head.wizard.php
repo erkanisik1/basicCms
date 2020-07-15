@@ -7,7 +7,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Vizew - Blog &amp; Magazine HTML Template</title>
+    <title>{{settings('siteName')}}</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -21,3 +21,4 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/my.css">

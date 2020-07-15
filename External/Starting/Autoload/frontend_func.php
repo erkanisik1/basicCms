@@ -45,7 +45,7 @@ function contentImage($data) {
   
 function decode($deger){ echo htmlspecialchars_decode($deger);}
 
-function settings($title = null){return DB::select('value')->where('title',$title)->get('settings')->value();}
+function settings($title = null){return DB::select('value')->where('key_name',$title)->get('settings')->value();}
 
 function translate($data){echo ML::select($data);}
 

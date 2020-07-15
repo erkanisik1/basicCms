@@ -11,8 +11,7 @@ class Home extends Controller
      */
     public function main(String ...$parameters)
     {  
-        Masterpage::title('EloTec');
-   
+        
         View::homeContent(DB::orderBy('id','desc')->limit('5')->contentResult())
             ::get('main');
        

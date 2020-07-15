@@ -8,7 +8,9 @@
         <div class="form-group">
           <label>Parent Category</label>
          	<select name="parent_id" class="form-control" >
-		    	<option value="">Seçiniz</option>
+
+		    	<option value="">Choose...</option>
+          <option value="0">Main Category</option>
 		    	{{yonetimKategori()}}
 		    </select>
         </div>

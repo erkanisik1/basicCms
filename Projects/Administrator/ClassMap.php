@@ -16,3 +16,6 @@ $classMap['namespaces']['project\controllers\page'] = 'page';
 $classMap['classes']['content_model'] = 'Projects/Administrator/Models/Content_model.php';
 $classMap['classes']['project\controllers\test1'] = 'Projects/Administrator/Controllers/Test1.php';
 $classMap['namespaces']['project\controllers\test1'] = 'test1';
+$classMap['classes']['project\controllers\settings'] = 'Projects/Administrator/Controllers/Settings.php';
+$classMap['namespaces']['project\controllers\settings'] = 'settings';
+$classMap['classes']['settings_model'] = 'Projects/Administrator/Models/Settings_model.php';

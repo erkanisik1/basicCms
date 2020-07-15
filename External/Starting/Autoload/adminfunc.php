@@ -14,6 +14,10 @@ function page_list(){
   return DB::orderBy('id','DESC')->get('page')->result();
 }
 
+function settings_list(){
+  return DB::orderBy('id','DESC')->get('settings')->result();
+}
+
 function contentKat($id = '0'){
   return DB::where('parent_id',$id,'AND')->where('status','1')->get('content_category')->result();
 }

@@ -3,7 +3,7 @@
 
                         <!-- Section Heading -->
                         <div class="section-heading style-2">
-                            <h4>Son Eklenenler</h4>
+                            <h4>Latest News</h4>
                             <div class="line"></div>
                         </div>
                         
