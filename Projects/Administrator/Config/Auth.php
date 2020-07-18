@@ -27,17 +27,17 @@
     'spectator' => '',
     'matching'  =>
     [
-        'table'   => '',
+        'table'   => 'user',
         'columns' =>
         [
-            'username'     => '', # Required
-            'password'     => '', # Required
-            'email'        => '', # Relative
-            'active'       => '', # Relative
-            'banned'       => '', # Relative
-            'activation'   => '', # Relative
+            'username'     => 'name', # Required
+            'password'     => 'password', # Required
+            'email'        => 'mail', # Relative
+            'active'       => 'status', # Relative
+            'banned'       => 'banned', # Relative
+            'activation'   => 'activation', # Relative
             'verification' => '', # Relative
-            'otherLogin'   => []  # Relative
+            'otherLogin'   => ['mail']  # Relative
         ]
     ],
     'joining' =>

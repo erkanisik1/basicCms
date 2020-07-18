@@ -19,11 +19,11 @@
 
                 <tr>
                   <td>{{$key->id}}</td>
-                  <td style="color:#000;font-weight: bolder;">{{$key->key}}</td>
+                  <td style="color:#000;font-weight: bolder;">{{$key->key_name}}</td>
                   <td>{{$key->value}}</td>
                   
                   <td class="islemler" style="text-align: center;">
-                    <a href="/administrator/settings/update/{{$key->id}}"><button><i class="icon-pencil"></i></button></a>
+                    <a href="/administrator/settings/edit/{{$key->id}}"><button><i class="icon-pencil"></i></button></a>
                     <a href="/administrator/settings/delete/{{$key->id}}" onclick="return window.confirm('Are you sure you want to delete?');">
                       <button><i class="icon-remove"></i></button></a>
                   </td>

@@ -1,7 +1,7 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="/images/favicon/eagle.png" alt="User Image" width="80">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="/images/admin.png" alt="User Image" width="80">
         <div>
           <p class="app-sidebar__user-name">ADMIN</p>
           <p class="app-sidebar__user-designation">Developer</p>

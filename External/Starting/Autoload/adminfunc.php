@@ -50,3 +50,6 @@ function cat_update($id){
 	return DB::where('id',$id)->get('content_category')->row();
 }
 
+function settings_update($id){
+  return DB::where('id',$id)->get('settings')->row();
+}

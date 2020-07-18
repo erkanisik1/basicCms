@@ -1,5 +1,5 @@
 <?php namespace Project\Controllers;
-use Method;
+use Method, DB;
 class Settings extends Controller
 {
    
@@ -16,6 +16,12 @@ class Settings extends Controller
      	if (Method::post()) {$this->settings_model->update(Method::post());}
         View::id($id)->get('edit');
     }
+
+      function delete($id){
+        DB::where('id', $id)->delete('settings');
+        redirect('settings');
+    }
+
 
    
 }
