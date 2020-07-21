@@ -14,6 +14,26 @@ function page_list(){
   return DB::orderBy('id','DESC')->get('page')->result();
 }
 
+function menuNameList(){
+  return DB::orderBy('id','DESC')->get('menucat')->result();
+}
+
+function langList(){
+  return DB::get('lang')->result();
+}
+
+function menuCategoryName($id){
+  return DB::where('id',$id)->select('name')->menucat()->value();
+}
+
+function menuList(){
+  return DB::select('menucat.name AS category','menu.*')
+  ->innerJoin('menucat.id','menu.catID')
+  ->get('menu')
+  ->result();
+}
+
+
 function settings_list(){
   return DB::orderBy('id','DESC')->get('settings')->result();
 }

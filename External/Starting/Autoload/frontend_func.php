@@ -80,3 +80,15 @@ function dateConvert($date) {
 function contentRow($id){
   return DB::where('id',$id)->get('content')->row();
 }
+
+function menu($id,$lang = 'en'){
+
+  $db = DB::where('catID',$id,'and')->where('lang',$lang)->get('menu')->result();
+
+  foreach ($db as $key ) {
+    echo '<li><a href="'.$key->link.'">'.$key->name.'</a></li>';
+  }
+
+  
+}
+

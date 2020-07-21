@@ -56,6 +56,12 @@
             <span class="app-menu__label">Site Management</span>
           </a>
         </li>
+         <li class="btn_menu">
+          <a class="app-menu__item" href="/" target="_blank">
+            <i class="app-menu__icon icon-angle-right"></i>
+            <span class="app-menu__label">Site MainPage</span>
+          </a>
+        </li>
    
            
       </ul>

@@ -68,9 +68,8 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="/">MAINPAGE</a></li>
-                                    <li><a href="/about">ABOUT</a></li>
-                                    <li><a href="/contact">CONTACT</a></li>
+                                    {[menu(4,'tr')]}
+                                    
                                 </ul>
                             </div>
                             <!-- Nav End -->
